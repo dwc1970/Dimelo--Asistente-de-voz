@@ -1,0 +1,26 @@
+.body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+#imageContainer {
+    width: 600px;
+    height: 150px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.interactive-image {
+    width: 100px; /* Ajusta el ancho de la imagen según tu preferencia */
+    height: 100px; /* Ajusta la altura de la imagen según tu preferencia */
+    margin: 5px; /* Ajusta el margen entre imágenes según tu preferencia */
+    cursor: pointer;
+}
+
+.no-display-response {
+    display: none; /* Esta clase oculta la respuesta en la pantalla */
+}
